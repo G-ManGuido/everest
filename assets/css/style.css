@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+*{
+  margin: 0;
+  font-family: Poppins;
+}
+body {
+  height:100vh;
+  background: url(../img/everest2.jpeg) no-repeat center/cover;
+}
+
+article{
+position: absolute;
+left: 60%; 
+top:20%;  
+}
+
+h1{
+color: #fff;
+font-size: 3rem;
+
+}
+p{
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: right;
+  }
